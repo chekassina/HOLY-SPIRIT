@@ -61,7 +61,7 @@ export default function App() {
       
       {/* FLOATING WHATSAPP PRAYER BADGE */}
       <motion.a
-        href="https://wa.me/256701445588"
+        href="https://wa.me/256760116903"
         target="_blank"
         rel="noreferrer"
         whileHover={{ scale: 1.08 }}
@@ -92,17 +92,17 @@ export default function App() {
             <div className="w-10 h-10 rounded-sm overflow-hidden border border-brand-gold/30 bg-white p-0.5 shrink-0 flex items-center justify-center">
               <img
                 src="/logo.jpeg"
-                alt="Holy Spirit Revival Church Logo"
+                alt="Miracle Embassy Church Logo"
                 className="w-full h-full object-contain"
                 referrerPolicy="no-referrer"
               />
             </div>
             <div>
               <span className="font-serif text-base sm:text-lg font-black text-white tracking-wide uppercase group-hover:text-brand-gold transition-colors block leading-none">
-                HOLY SPIRIT
+                MIRACLE EMBASSY
               </span>
               <span className="font-sans text-[10px] font-bold text-brand-gold uppercase tracking-widest leading-none">
-                REVIVAL CHURCH
+                MECOCMI
               </span>
             </div>
           </div>
@@ -173,7 +173,7 @@ export default function App() {
             {(
               [
                 { id: "home", label: "Home", desc: "Welcome & Vision" },
-                { id: "about", label: "About HSRC", desc: "Who We Are & Faith" },
+                { id: "about", label: "About MECOCMI", desc: "Who We Are & Faith" },
                 { id: "services", label: "Worship & Altar Programs", desc: "Weekly Schedules & Altar nights" },
                 { id: "events", label: "Conventions", desc: "Annual Revival details" },
                 { id: "ministries", label: "Our Ministries", desc: "Departments of service" },
@@ -224,7 +224,7 @@ export default function App() {
                       <span className="text-xs font-mono text-brand-gold-dark uppercase tracking-widest font-bold">FOUNDATIONAL INTENT</span>
                       <h2 className="font-serif text-3xl sm:text-4xl font-bold text-brand-blue-dark">Our Divine Call</h2>
                       <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-                        Holy Spirit Revival Church stands as an apostolic beacon committed to Raising a Generation that walks in deep holiness, uncompromised prayer, and spiritual revival.
+                        Miracle Embassy Church of Christ Ministries International (MECOCMI) stands as an apostolic beacon committed to preaching the gospel, discipling souls, and transforming communities.
                       </p>
                       
                       <div className="space-y-4 pt-2">
@@ -232,7 +232,7 @@ export default function App() {
                           <div className="w-10 h-10 rounded-sm bg-brand-gold/20 text-brand-gold-dark flex items-center justify-center font-bold text-sm shrink-0">V</div>
                           <div>
                             <h4 className="font-serif font-bold text-brand-blue-dark text-sm sm:text-base">Our Vision</h4>
-                            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-sans">To raise a generation that knows God, walks in holiness, and impacts nations through the power of the Holy Spirit.</p>
+                            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-sans">To preach the gospel to all nations and transform the world under the true knowledge of Jesus Christ according to the scriptures.</p>
                           </div>
                         </div>
 
@@ -240,7 +240,7 @@ export default function App() {
                           <div className="w-10 h-10 rounded-sm bg-brand-gold/20 text-brand-gold-dark flex items-center justify-center font-bold text-sm shrink-0">M</div>
                           <div>
                             <h4 className="font-serif font-bold text-brand-blue-dark text-sm sm:text-base">Our Mission</h4>
-                            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-sans">To preach the Gospel of Jesus Christ, disciple believers, restore broken lives through prayer, and prepare the Church for the return of Christ.</p>
+                            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-sans">To win souls to Jesus Christ, disciple them and they disciple the world.</p>
                           </div>
                         </div>
                       </div>
@@ -366,18 +366,18 @@ export default function App() {
               <div className="w-8 h-8 rounded-lg overflow-hidden border border-brand-gold/30 bg-white p-0.5 shrink-0 flex items-center justify-center">
                 <img
                   src="/logo.jpeg"
-                  alt="Holy Spirit Revival Church Logo"
+                  alt="Miracle Embassy Church Logo"
                   className="w-full h-full object-contain"
                   referrerPolicy="no-referrer"
                 />
               </div>
               <span className="font-serif text-base font-bold text-white uppercase tracking-wider block">
-                HSRC UGANDA
+                MECOCMI UGANDA
               </span>
             </div>
             
             <p className="font-serif italic text-sm sm:text-base text-slate-300">
-              "Reviving Lives, Transforming Communities, and Advancing the Kingdom of God."
+              "Jesus Christ is the same yesterday, today and forever." (Hebrews 13:8)
             </p>
 
             <div className="text-xs text-slate-500 font-sans leading-normal pt-2">
@@ -447,15 +447,15 @@ export default function App() {
             <div className="space-y-3.5 text-slate-400">
               <div className="flex items-start gap-2 justify-center md:justify-start">
                 <MapPin className="w-4 h-4 text-brand-gold shrink-0 mt-0.5" />
-                <span>Mbale Cathedral Avenue, Plot 42, Mbale City, Uganda</span>
+                <span>Located Behind Government Lodge, Alongside River Namatsyo, Industrial City Division, Mbale City, Uganda</span>
               </div>
               <div className="flex items-start gap-2 justify-center md:justify-start">
                 <Phone className="w-4 h-4 text-brand-gold shrink-0 mt-0.5" />
-                <span className="font-mono">+256 701 445588</span>
+                <span className="font-mono">+256 760 116903 / +256 753 621443</span>
               </div>
               <div className="flex items-start gap-2 justify-center md:justify-start">
                 <Mail className="w-4 h-4 text-brand-gold shrink-0 mt-0.5" />
-                <span>office@hsrc.org</span>
+                <span>embassychristiancollege2015@gmail.com</span>
               </div>
             </div>
           </div>
@@ -464,10 +464,10 @@ export default function App() {
         {/* Absolute Copyright lines */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-800/80 text-center text-slate-500 font-sans text-xs relative z-10">
           <div>
-            &copy; {new Date().getFullYear()} Holy Spirit Revival Church. All Rights Reserved. Crafted with absolute devotion.
+            &copy; {new Date().getFullYear()} Miracle Embassy Church of Christ Ministries International (MECOCMI). All Rights Reserved. Crafted with absolute devotion.
           </div>
           <div className="mt-1 text-[10px] text-slate-600 flex items-center justify-center gap-1">
-            <span>Regulated by Uganda Ministry Council & HSRC Elders Panel</span>
+            <span>Regulated by Uganda Ministry Council & MECOCMI Elders Panel</span>
           </div>
         </div>
       </footer>

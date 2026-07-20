@@ -2,6 +2,32 @@ import { Pastor, ServiceSchedule, AltarNight, AnnualEvent, Ministry, GalleryItem
 
 export const PASTORS: Pastor[] = [
   {
+    id: "p_geoffrey",
+    name: "Apostle Kwolesebwa Geoffrey",
+    role: "Presiding Apostle & Founder",
+    bio: "Apostle Kwolesebwa Geoffrey is the General Overseer of Miracle Embassy Church of Christ Ministries International [MECOCMI]. Anointed with apostolic fire, he travels extensively to preach the uncompromised cross, leading massive revivals and delivering souls from darkness.",
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400&h=400",
+    quote: "To preach the gospel to all nations and transform the world under the true knowledge of Jesus Christ.",
+    responsibilities: [
+      "General spiritual oversight of the global ministries",
+      "Pioneering crusades and global missionary deployments",
+      "Mentoring pastoral networks and national leaders"
+    ]
+  },
+  {
+    id: "p_esther",
+    name: "Pastor Kwolesebwa Esther",
+    role: "Co-Founder & Presiding Pastor",
+    bio: "Pastor Kwolesebwa Esther is the co-founder and Presiding Pastor of MECOCMI. A dedicated intercessor and counselor, she leads our prayer altars, youth mentorship initiatives, and community projects with absolute grace.",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400&h=400",
+    quote: "Fanning the flames of prayer, holy living, and community transformation across the nations.",
+    responsibilities: [
+      "Directing intercessory groups and corporate altar watches",
+      "Upholding general congregation care, counseling, and logistics",
+      "Coordinating church project implementations"
+    ]
+  },
+  {
     id: "p1",
     name: "Pastor Nandako Zerida",
     role: "Project Director",
@@ -285,7 +311,7 @@ export const MINISTRIES: Ministry[] = [
     description: "The engine room of the church. This ministry maintains the continuous fire on the altar, coordinates overnight prayer groups, and intercedes for the spiritual needs of members and nations.",
     focus: ["24/7 Altar Nights", "Fasting Mobilization", "Crisis Intercession", "Healing Lines"],
     schedule: "Daily Watches (8:00 PM - 6:00 AM)",
-    email: "prayer@hsrc.org",
+    email: "embassychristiancollege2015@gmail.com",
     iconName: "Flame"
   },
   {
@@ -295,7 +321,7 @@ export const MINISTRIES: Ministry[] = [
     description: "Discipling, mentoring, and gathering young people to walk in holiness, discover their purpose, and excel in every sector of life with uncompromised faith.",
     focus: ["Weekly Youth Gatherings", "Academic Excellence Seminars", "Creative Arts", "Mentorship"],
     schedule: "Saturdays at 2:00 PM",
-    email: "youths@hsrc.org",
+    email: "embassychristiancollege2015@gmail.com",
     iconName: "Sparkles"
   },
   {
@@ -305,7 +331,7 @@ export const MINISTRIES: Ministry[] = [
     description: "Ministers of the tabernacle of praise. They lead the congregation in prophetic, deep praise and worship, and release spiritually saturated musical arrangements.",
     focus: ["Praise & Worship Team", "HSRC Mass Choir", "Instrumental Excellence", "Songwriting"],
     schedule: "Saturdays at 4:00 PM",
-    email: "choir@hsrc.org",
+    email: "embassychristiancollege2015@gmail.com",
     iconName: "Music"
   },
   {
@@ -315,7 +341,7 @@ export const MINISTRIES: Ministry[] = [
     description: "The vanguard of the Great Commission. Moving out into streets, neighborhoods, and market centers to passionately preach the cross and bring souls into discipleship.",
     focus: ["Street Crusades", "Personal Evangelism Training", "Prison & Hospital Outreach", "New Converts Care"],
     schedule: "Thursdays at 3:00 PM",
-    email: "evangelism@hsrc.org",
+    email: "embassychristiancollege2015@gmail.com",
     iconName: "Compass"
   },
   {
@@ -325,7 +351,7 @@ export const MINISTRIES: Ministry[] = [
     description: "Responsible for planting new church altars, supporting rural missionaries, and planning global outreaches to unreached regions.",
     focus: ["Church Planting", "Missionary Care & Support", "Cross-Cultural Outreaches", "Resource Mobilization"],
     schedule: "First Saturday of the Month",
-    email: "missions@hsrc.org",
+    email: "embassychristiancollege2015@gmail.com",
     iconName: "Globe"
   },
   {
@@ -335,7 +361,7 @@ export const MINISTRIES: Ministry[] = [
     description: "Using cutting-edge tech and broadcasting to stream the Gospel. Responsible for live video, audio, social media, photography, and online portals.",
     focus: ["Web & App Development", "Live Stream Broadcasting", "Video/Audio Editing", "Social Media Outreach"],
     schedule: "As Scheduled (Service Days)",
-    email: "media@hsrc.org",
+    email: "embassychristiancollege2015@gmail.com",
     iconName: "Video"
   },
   {
@@ -345,7 +371,7 @@ export const MINISTRIES: Ministry[] = [
     description: "Hosting the congregation with premium comfort, maintaining order, and executing strategic service protocols with excellence and a royal smile.",
     focus: ["Guest Welcoming", "Seating & Orderly Flow", "Venue Preparation", "Safety Protocol"],
     schedule: "Sundays at 4:30 AM",
-    email: "ushers@hsrc.org",
+    email: "embassychristiancollege2015@gmail.com",
     iconName: "Users"
   },
   {
@@ -355,7 +381,7 @@ export const MINISTRIES: Ministry[] = [
     description: "Designing, constructing, and overseeing the structural expansion of the church's global footprint, facilities, and physical structures.",
     focus: ["Sanctuary Construction", "Land Acquisition", "Engineering & Design", "Community Infrastructure"],
     schedule: "Tuesdays at 2:00 PM",
-    email: "projects@hsrc.org",
+    email: "embassychristiancollege2015@gmail.com",
     iconName: "Layers"
   },
   {
@@ -365,7 +391,7 @@ export const MINISTRIES: Ministry[] = [
     description: "Bringing the masses together, coordinating regional cell networks, and organizing major conference logistics with precision and efficiency.",
     focus: ["Cell Networks (Home Altars)", "Event Attendance Mobilization", "Transportation Logistics", "Publicity Campaigns"],
     schedule: "Wednesdays at 4:00 PM",
-    email: "mobilization@hsrc.org",
+    email: "embassychristiancollege2015@gmail.com",
     iconName: "Megaphone"
   },
   {
@@ -375,7 +401,7 @@ export const MINISTRIES: Ministry[] = [
     description: "Stewarding God's tithes and offerings with absolute accountability, designing budgets, and ensuring financial compliance across all networks.",
     focus: ["Financial Audit & Control", "Strategic Budgeting", "Stewardship Teaching", "Welfare Fund Management"],
     schedule: "Mondays at 3:00 PM",
-    email: "finance@hsrc.org",
+    email: "embassychristiancollege2015@gmail.com",
     iconName: "DollarSign"
   },
   {
@@ -385,7 +411,7 @@ export const MINISTRIES: Ministry[] = [
     description: "Cultivating beautiful and hygienic spaces. They ensure the sanctuary and surrounds are maintained as clean, sanitary vessels for God's presence.",
     focus: ["Sanctuary Cleanliness", "Facilities Beautification", "Waste Management", "Hygiene Supplies Control"],
     schedule: "Saturdays at 7:00 AM",
-    email: "sanitation@hsrc.org",
+    email: "embassychristiancollege2015@gmail.com",
     iconName: "Sparkles"
   }
 ];

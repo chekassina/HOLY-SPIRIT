@@ -13,7 +13,7 @@ export default function HeroSection({ onNavigate, openPrayerModal }: HeroProps) 
       <div className="absolute inset-0 z-0">
         <img
           src="/bannel.jpeg"
-          alt="Holy Spirit Revival Church Sanctuary"
+          alt="Miracle Embassy Church Sanctuary"
           className="w-full h-full object-cover object-center opacity-40 scale-105 transform hover:scale-100 transition-transform duration-[10s]"
           referrerPolicy="no-referrer"
         />
@@ -36,14 +36,14 @@ export default function HeroSection({ onNavigate, openPrayerModal }: HeroProps) 
           {/* Tagline Badge */}
           <div className="inline-flex items-center gap-2 bg-brand-gold/10 border border-brand-gold/35 px-4 py-1.5 rounded-full text-xs font-mono text-brand-gold uppercase tracking-widest">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-gold animate-pulse" />
-            Raising a Generation Through Prayer & holiness
+            Preaching the Gospel • Isaiah 35:1-10
           </div>
 
           {/* Church Title */}
-          <h1 className="font-serif text-5xl sm:text-7xl md:text-8xl font-black text-white tracking-tighter leading-none italic">
-            HOLY SPIRIT <br />
-            <span className="text-brand-gold font-normal font-sans tracking-widest text-2xl sm:text-4xl md:text-5xl uppercase block mt-2">
-              REVIVAL CHURCH
+          <h1 className="font-serif text-4xl sm:text-6xl md:text-7xl font-black text-white tracking-tight leading-tight">
+            MIRACLE EMBASSY <br />
+            <span className="text-brand-gold font-bold font-sans tracking-widest text-lg sm:text-2xl md:text-3xl uppercase block mt-2">
+              CHURCH OF CHRIST MINISTRIES INTERNATIONAL [MECOCMI]
             </span>
           </h1>
 

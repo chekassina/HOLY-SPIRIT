@@ -164,17 +164,18 @@ export default function AboutSection() {
               Who We Are
             </h2>
             <p className="text-slate-600 font-sans leading-relaxed text-base sm:text-lg">
-              Holy Spirit Revival Church is a Bible-believing Christian ministry committed to proclaiming the Gospel of Jesus Christ through worship, prayer, evangelism, discipleship, and compassionate service.
+              Miracle Embassy Church of Christ Ministries International (MECOCMI) is a spirit-filled Christian ministry dedicated to preaching the uncompromised Gospel of Jesus Christ and manifesting His revival power across Mbale City, Uganda, and the entire world.
             </p>
             <p className="text-slate-600 font-sans leading-relaxed text-base sm:text-lg">
-              We exist to bring people into a life-changing relationship with Jesus Christ while empowering believers to fulfill God's purpose. Our ministry is founded on the authority of God's Word and the transforming power of the Holy Spirit.
+              Empowered by prayer, holiness, and the absolute authority of the scriptures, MECOCMI is committed to winning souls to Jesus Christ, discipling them, and establishing physical and spiritual community projects that demonstrate the love and order of God's Kingdom.
             </p>
             
             {/* Visual Quote Banner */}
             <div className="border-l-4 border-brand-gold bg-brand-gold-light/20 p-5 rounded-r-sm">
               <p className="font-serif italic text-brand-blue-dark font-medium text-lg">
-                "Raising a generation that knows God, walks in holiness, and impacts nations through the power of the Holy Spirit."
+                "Jesus Christ is the same yesterday, today and forever."
               </p>
+              <p className="text-xs font-mono font-bold text-brand-gold-dark mt-1 text-right">— Hebrews 13:8</p>
             </div>
           </motion.div>
 
@@ -194,10 +195,13 @@ export default function AboutSection() {
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-sm bg-brand-gold/20 border border-brand-gold/40 flex items-center justify-center text-brand-gold font-serif text-xl font-bold">V</div>
-                    <h3 className="font-serif text-2xl font-semibold text-brand-gold">Vision Statement</h3>
+                    <h3 className="font-serif text-2xl font-semibold text-brand-gold">Our Vision</h3>
                   </div>
-                  <p className="text-slate-300 text-sm sm:text-base leading-relaxed pl-13">
-                    To build a spiritually mature Church that transforms communities and nations through the power of God.
+                  <p className="text-slate-300 text-sm sm:text-base leading-relaxed pl-13 font-sans">
+                    To preach the gospel to all nations and transform the world under the true knowledge of Jesus Christ according to the scriptures.
+                  </p>
+                  <p className="text-slate-400 text-xs font-mono pl-13 flex items-center gap-1">
+                    <BookOpen className="w-3.5 h-3.5" /> Isaiah 35:1-10
                   </p>
                 </div>
 
@@ -207,11 +211,25 @@ export default function AboutSection() {
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-sm bg-brand-gold/20 border border-brand-gold/40 flex items-center justify-center text-brand-gold font-serif text-xl font-bold">M</div>
-                    <h3 className="font-serif text-2xl font-semibold text-brand-gold">Mission Statement</h3>
+                    <h3 className="font-serif text-2xl font-semibold text-brand-gold">Our Mission</h3>
                   </div>
-                  <p className="text-slate-300 text-sm sm:text-base leading-relaxed pl-13">
-                    To win souls, disciple believers, develop leaders, and impact communities through the Gospel of Jesus Christ.
+                  <p className="text-slate-300 text-sm sm:text-base leading-relaxed pl-13 font-sans">
+                    To win souls to Jesus Christ, disciple them and they disciple the world.
                   </p>
+                </div>
+
+                <hr className="border-slate-800" />
+
+                {/* Goals Box */}
+                <div className="space-y-3">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-sm bg-brand-gold/20 border border-brand-gold/40 flex items-center justify-center text-brand-gold font-serif text-xl font-bold">G</div>
+                    <h3 className="font-serif text-2xl font-semibold text-brand-gold">Our Goals</h3>
+                  </div>
+                  <ul className="text-slate-300 text-xs sm:text-sm leading-relaxed pl-13 font-sans list-disc space-y-2">
+                    <li>To establish church branches.</li>
+                    <li>To set-up church projects e.g. theological colleges, Schools, Institutions, Universities, radio stations and TV stations.</li>
+                  </ul>
                 </div>
               </div>
             </div>

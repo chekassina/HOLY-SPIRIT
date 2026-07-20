@@ -444,10 +444,15 @@ export default function InteractionCenter() {
                     <QrCode className="w-4 h-4 text-brand-gold" />
                     <span className="text-[10px] font-mono uppercase text-brand-gold-light tracking-wider font-bold">Mobile Money & Bank transfer</span>
                   </div>
-                  <div className="space-y-1 text-slate-300 text-xs font-mono">
-                    <div>MTN Mobile Money: <span className="text-white font-bold">+256 701 445588</span></div>
-                    <div>Airtel Money: <span className="text-white font-bold">+256 772 334455</span></div>
-                    <div>Bank: Standbic Uganda • Account: <span className="text-white font-bold font-sans">9030022244455</span></div>
+                  <div className="space-y-1.5 text-slate-300 text-xs font-sans">
+                    <div className="font-mono text-[11px]">MTN Mobile Money: <span className="text-white font-bold">+256 760 116903</span></div>
+                    <div className="font-mono text-[11px]">Airtel Money: <span className="text-white font-bold">+256 753 621443</span></div>
+                    <div className="border-t border-slate-800/80 pt-1.5 mt-1.5 space-y-1 text-[11px]">
+                      <div>Bank: <span className="text-white font-bold">Pearl Bank Uganda</span></div>
+                      <div>Account Number: <span className="text-brand-gold font-bold font-mono">1632201000712</span></div>
+                      <div>Account Name: <span className="text-white font-medium text-[10px] block font-sans">MIRACLE EMBASSY CHURCH OF CHRIST MINISTRIES UGANDA (MECOCMU)</span></div>
+                      <div>SWIFT Code: <span className="text-brand-gold font-bold font-mono">UGPBUGKA</span></div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -472,7 +477,7 @@ export default function InteractionCenter() {
                         </p>
                       </div>
                       <div className="inline-block bg-slate-50 border border-slate-100 px-4 py-2 rounded-sm text-xs font-mono text-slate-400">
-                        Transaction Ref: <span className="text-slate-800 font-bold">HSRC-TXN-{Date.now().toString().substring(6)}</span>
+                        Transaction Ref: <span className="text-slate-800 font-bold">MECOCMI-TXN-{Date.now().toString().substring(6)}</span>
                       </div>
                       <div className="pt-4">
                         <button
@@ -615,7 +620,7 @@ export default function InteractionCenter() {
                     <div className="space-y-0.5">
                       <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider block">Physical Address</span>
                       <p className="font-semibold text-brand-blue-dark leading-snug">
-                        Holy Spirit Revival Church, Plot 42, Cathedral Avenue, Mbale City, Uganda
+                        Located Behind Government Lodge, Alongside River Namatsyo, Industrial City Division, Mbale City, Uganda, Africa
                       </p>
                     </div>
                   </div>
@@ -629,8 +634,8 @@ export default function InteractionCenter() {
                     <div className="space-y-0.5">
                       <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider block">Call & WhatsApp Contact</span>
                       <p className="font-semibold text-brand-blue-dark font-sans leading-normal">
-                        WhatsApp: +256 701 445588 <br />
-                        Office Phone: +256 772 334455
+                        WhatsApp: +256 760 116903 <br />
+                        Office Phone: +256 753 621443
                       </p>
                     </div>
                   </div>
@@ -644,8 +649,8 @@ export default function InteractionCenter() {
                     <div className="space-y-0.5">
                       <span className="text-[10px] font-mono text-slate-400 uppercase tracking-wider block">Email Channels</span>
                       <p className="font-semibold text-brand-blue-dark leading-snug">
-                        Administration: office@hsrc.org <br />
-                        Prayer Board: intercession@hsrc.org
+                        office@mecocmi.org <br />
+                        embassychristiancollege2015@gmail.com
                       </p>
                     </div>
                   </div>
