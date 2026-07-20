@@ -1,0 +1,6 @@
+{
+  "name": "Holy Spirit Revival Church",
+  "description": "A premium, ministry-focused website for Holy Spirit Revival Church, dedicated to prayer, holiness, revival, and spiritual renewal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
